@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
@@ -35,15 +41,15 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  '  |  <  |  >  |  "  |  .  |   |  &  |     |  [  |  ]  |  %  | BKSP |
-// | CTRL |  !  |  -  |  +  |  =  |  #  |   | "|" |  :  |  (  |  )  |  ?  |     |
-// | SHFT |  ^  |  /  |  *  |  \  |     |   |  ~  |  $  |  {  |  }  |  @  |      |
+// |  TAB |  '  |  <  |  >  |  "  |  .  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
+// | CTRL |  !  |  -  |  +  |  =  |  #  |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// | SHFT |  ^  |  /  |  *  |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB   &kp SQT    &kp LT     &kp GT          &kp DQT      &kp DOT   &kp AMPS    &trans    &kp LBKT   &kp RBKT  &kp PRCNT  &kp BSPC
-   &kp LCTRL &kp EXCL   &kp MINUS  &kp PLUS        &kp EQUAL    &kp HASH  &kp PIPE    &kp COLON &kp LPAR   &kp RPAR  &kp QMARK  &kp GRAVE
-   &kp LSHFT &kp CARET  &kp FSLH   &kp KP_MULTIPLY &kp BLSH     &trans    &kp TILDE   &kp DLLR  &kp LBRC   &kp RBRC  &kp AT     &trans
-                        &kp LGUI &mo 1    &kp SPACE   &kp RET   &trans    &kp RALT
+   &kp  TAB  &kp SQT &kp LT &kp GT &kp DQT &kp DOT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
+   &kp LCTRL &kp EXCL   &kp MINUS &kp PLUS   &kp EQUAL   &kp HASH      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
+   &kp LSHFT &kp CARET   &kp FSLH &kp KP_MULTIPLY   &kp BSLH   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
+                             &kp LGUI &mo 1    &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
         };
