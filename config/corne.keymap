@@ -41,14 +41,14 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  '  |  <  |  >  |  "  |  .  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |  !  |  -  |  +  |  =  |  #  |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-// | SHFT |  ^  |  /  |  *  |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+// |  TAB |  '  |  <  |  >  |  "  |  .  |   |  &  |     |  [  |  ]  |  %  | BKSP |
+// | CTRL |  !  |  -  |  +  |  =  |  #  |   | "|" |  :  |  (  |  )  |  ?  |  `   |
+// | SHFT |  ^  |  /  |  *  |     |     |   |     |  $  |  {  |  }  |  @  |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  TAB  &kp SQT &kp LT &kp GT &kp DQT &kp DOT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &kp EXCL   &kp MINUS &kp PLUS   &kp EQUAL   &kp HASH      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
-   &kp LSHFT &kp CARET   &kp FSLH &kp KP_MULTIPLY   &kp BSLH   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
+   &kp  TAB  &kp SQT &kp LT &kp GT &kp DQT &kp DOT   &kp AMPS &trans  &kp LBKT &kp RBKT &kp PRCNT &kp BSPC
+   &kp LCTRL &kp EXCL   &kp MINUS &kp PLUS   &kp EQUAL   &kp HASH      &kp PIPE &kp COLON &kp LPAR        &kp RPAR &kp QMARK &kp GRAVE
+   &kp LSHFT &kp CARET   &kp FSLH &kp KP_MULTIPLY   &kp BSLH   &trans      &trans &kp DLLR  &kp LBRC        &kp RBRC &kp AT &kp TILDE
                              &kp LGUI &mo 1    &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
