@@ -41,14 +41,14 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  '  |  <  |  >  |  "  |  .  |   |  &  |  F5 |  [  |  ]  |  %  | BKSP |
+// |  TAB |  '  |  <  |  >  |  "  |  .  |   |  &  |     |  [  |  ]  |  %  | BKSP |
 // | CTRL |  !  |  -  |  +  |  =  |  #  |   | "|" |  :  |  (  |  )  |  ?  |  `   |
 // | SHFT |  ^  |  /  |  *  |  \  |     |   |  ~  |  $  |  {  |  }  |  @  |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB   &kp SQT    &kp LT        &kp GT          &kp DQT      &kp DOT   &kp AMPS    &kp F5    &kp LBKT   &kp RBKT  &kp PRCNT  &kp BSPC
-   &kp LCTRL &kp EXCL   &kp KP_MINUS  &kp KP_PLUS     &kp EQUAL    &kp HASH  &kp PIPE    &kp COLON &kp LPAR   &kp RPAR  &kp QMARK  &kp GRAVE
-   &kp LSHFT &kp CARET  &kp KP_DIVIDE &kp KP_MULTIPLY &kp BLSH     &trans    &kp TILDE   &kp DLLR  &kp LBRC   &kp RBRC  &kp AT     &kp TILDE2
+   &kp TAB   &kp SQT    &kp LT     &kp GT          &kp DQT      &kp DOT   &kp AMPS    &trans    &kp LBKT   &kp RBKT  &kp PRCNT  &kp BSPC
+   &kp LCTRL &kp EXCL   &kp MINUS  &kp PLUS        &kp EQUAL    &kp HASH  &kp PIPE    &kp COLON &kp LPAR   &kp RPAR  &kp QMARK  &kp GRAVE
+   &kp LSHFT &kp CARET  &kp FSLH   &kp KP_MULTIPLY &kp BLSH     &trans    &kp TILDE   &kp DLLR  &kp LBRC   &kp RBRC  &kp AT     &trans
                         &kp LGUI &mo 1    &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
