@@ -46,10 +46,10 @@
 // | SHFT |  ^  |  /  |  *  |  \  |     |   |  ~  |  $  |  {  |  }  |  @  |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  TAB  &kp SQT    &kp LT          &kp GT          &kp DQT         &kp DOT         &kp AMPS    &kp F5    &kp LBKT    &kp RBKT  &kp PRCNT  &kp BSPC
-   &kp LCTRL &kp EXCL   &kp KP_MINUS    &kp KP_PLUS     &kp EQUAL       &kp HASH        &kp PIPE    &kp COLON &kp LPAR    &kp RPAR  &kp QMARK  &kp GRAVE
-   &kp LSHFT &kp CARET  &kp KP_SLASH    &kp KP_MULTIPLY &kp BLSH        &trans          &kp TILDE   &kp DLLR  &kp LBRC    &kp RBRC  &kp AT     &trans
-                             &kp LGUI &mo 1    &kp SPACE   &kp RET   &trans    &kp RALT
+   &kp  TAB  &kp SQT    &kp LT        &kp GT          &kp DQT      &kp DOT   &kp AMPS    &kp F5    &kp LBKT   &kp RBKT  &kp PRCNT  &kp BSPC
+   &kp LCTRL &kp EXCL   &kp KP_MINUS  &kp KP_PLUS     &kp EQUAL    &kp HASH  &kp PIPE    &kp COLON &kp LPAR   &kp RPAR  &kp QMARK  &kp GRAVE
+   &kp LSHFT &kp CARET  &kp KP_SLASH  &kp KP_MULTIPLY &kp BLSH     &trans    &kp TILDE   &kp DLLR  &kp LBRC   &kp RBRC  &kp AT     &trans
+                        &kp LGUI &mo 1    &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
         };
